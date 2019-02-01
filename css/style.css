@@ -1,0 +1,445 @@
+html{
+    font-size: 14px;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{}
+.navbar{
+    border-bottom: 1px solid #e2e2ed;
+    padding: 13px 0;
+}
+.nav-item:first-child a{
+    padding-left: 0;
+}
+.nav-link{
+    color:#3D3088;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+.add{
+    color:#3D3088;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+.add a{
+    color:#3D3088;
+    margin-right: 10px;
+}
+.poligraf{
+    padding-top: 20px;
+   padding-bottom: 30px;
+}
+.single-poligraf button{
+     background: #E50A62;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 7px 45px;
+    border-radius: 0;
+}
+.single-poligraf img{
+    padding-bottom: 12px;
+}
+.logo-bottom{
+    font-size: 1rem;
+    font-weight: 700;
+    color:#393185;
+}
+.phone{
+      position: absolute;
+    color: #3D3088;
+    left: -10px;
+}
+.map{
+    position: absolute;
+    color:#3D3088;
+    left:-10px;  
+}
+.call-phone{
+        color: #262626;
+    font-weight: 900;
+}
+.contacts{
+    margin-top: 20px;
+}
+.contact-link{
+    color:#3D3088;
+   border-bottom: 1px solid #3D3088;
+}
+.work-address{
+    
+    font-size: 0.8rem;
+}
+
+.line{
+    position: relative;
+    content: '';
+    display: block;
+    width: 84px;
+    height: 2px;
+    background-color: #e50a62;
+    left:0;
+    top:10px;
+    bottom: 0;
+    right: 0;
+}
+.main-services{
+    background-color: #3D3088;
+}
+.main-services .nav{
+    display:flex;
+    justify-content: space-between;
+}
+.main-services .nav li a{
+    text-align: center;
+    font-size: 1rem;
+    color:#fff;
+    padding: 25px 0 25px 0;
+    letter-spacing:2px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+}
+.main-services .nav li i{
+    padding-left: 1rem;
+    font-size: 0.75rem;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    height: 660px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 900;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 10rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+.single-banner p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.single-banner button{
+     background: #E50A62;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 45px;
+    border-radius: 0;
+}
+.flex-column{
+    list-style: none;
+    padding-left: 0;
+}
+.single-banner ul li{
+    color:#fff;
+    font-size: 1rem;
+    line-height: 35px;
+        
+}
+.single-banner ul li i{
+    margin-right: 15px;
+}
+.popular{
+    
+}
+.popular h1{
+    font-size: 1.5rem;
+    color:#393185;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+}
+.popular-link{
+    font-size: 1.1rem;
+    color:#393185;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 23px;
+}
+.popular-text{
+    margin-bottom: 23px;
+}
+.popular-text a{
+    font-size: 1.1rem;
+    color:#393185;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 23px;
+}
+.popular-img{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.single-popular{
+    margin-bottom: 23px;
+}
+
+.single-popular.last {
+    height: 250px;
+    flex: 1 1 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+.price-table{
+    margin-top: 70px;
+}
+.price-table h1{
+    
+   font-size: 1.5rem;
+    color:#393185;
+    font-weight:900;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    letter-spacing: 2px;
+    margin-left: -15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+}
+
+.price-table .w-100{
+    border-bottom: 1px solid #e1eaf1;
+}
+.table .country-list{
+    text-align: start;
+}
+
+.table thead{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #393185;
+    font-weight: 900;
+}
+.table td{
+    text-align: center;
+    padding: 23px;
+}
+.extra-price{
+    margin-left: 20px;
+    margin-bottom: 27px;
+}
+.extra-price p{
+    font-size: 14px;
+    color:#393185;
+    font-weight:900;
+}
+.popular-text-order{
+    width: 100%;
+    height: 100%;
+    border: 8px solid #e50a62;
+}
+.text-link{
+    position: relative;
+    padding: 46px 87px 46px 43px;
+    display:block;
+    height: 100%;
+    color:#e50a62;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Fjalla One', sans-serif;
+}
+.text-link i{
+    position: absolute;
+    bottom: 8%;
+    right: 12%;
+}
+.card .card-body{
+    background: #f5fafe;
+}
+.card-body ul li span{
+    margin-right: 15px;
+    background: #fff;
+    padding: 1px 8px;
+    border-radius: 10px;
+    float: left;
+}
+.w-100{
+    border-bottom: 2px solid#f2f7fb;
+}
+.answer h1{
+    font-size: 1.5rem;
+    color:#393185;
+    font-weight:900;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    letter-spacing: 2px;
+    margin-left: -15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.options{
+    margin-top: 80px;
+}
+.options h1{
+    font-size: 1rem;
+    color:#393185;
+    font-weight:900;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.single-payment{
+    display: flex;
+}
+.single-payment img{
+    float:left;
+    margin-bottom: 25px;
+    
+}
+.payment h1{
+    position: relative;
+}
+.how-payment{
+    line-height: 15px;
+        padding-left: 11px;
+    padding-top: 23px;
+}
+.how-payment span{
+    color:#393185;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.footer{
+    background: #2e2771;
+}
+.all-information{
+    padding-top: 80px;
+    color:#fff;
+    padding-bottom: 
+}
+.all-information h3{
+    color:#fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+   
+}
+.all-information p{
+    font-size: 0.8rem;
+}
+.all-information li a{
+    color:#fff;
+    font-size: 0.8rem;
+}
+.all-information i{
+    color:#fff;
+}
+.information-address{
+    color:#fff;
+    margin-top: 11px;
+    
+}
+.address{
+    color: #b1c2e8;
+}
+.portfolio{
+    margin-top: 6rem;
+}
+.single-portfolio{}
+.single-portfolio p{
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 1rem;
+    padding-bottom: 15px;
+    font-weight: 900;
+    color: #2e2771;
+    font-family: 'Fjalla One', sans-serif;
+}
+.main-portfolio{
+    margin-top: 60px;
+}
+.text-portfolio{}
+.text-portfolio p{
+    font-size: 1rem;
+}
+.bold{
+    font-weight: 900;
+    color: #2e2771;
+    font-size: 1.28rem;
+}
+.card-img{
+    height: 119px;
+   
+    
+}
+.card-text{
+    padding: 50px 30px;
+    text-align: center;
+    border: 4px solid #f1f1f1;
+}
+.card-text:hover{
+    border:red;
+    margin-left: -4px;
+    position: relative;
+    z-index:2;
+    box-shadow: 0px 30px 110px -40px #c26d75;
+    border: 4px solid#e50a62;
+}
+.card-text h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #2e2771;
+}
+.card-text p{
+    font-size: 1.4rem;
+}
+.card-text a{
+    color:#2e2771;
+}
+
+
+
+.answer{
+    margin-top: 30px;
+}
+.card-answer{
+    border:0;
+}
+.card-header{
+    background-color: #fff;
+    border-bottom:0;
+}
+.card-header button{
+    text-decoration: underline;
+    color:#2e2771;
+}
+.question{
+    margin-top: 60px;
+}
+.question h1{
+     position: relative;
+   font-size: 1.5rem;
+    color:#393185;
+    font-weight:900;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    letter-spacing: 2px;
+    margin-left: -15px;
+    font-family: 'Fjalla One', sans-serif;
+}
